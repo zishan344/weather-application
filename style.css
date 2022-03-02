@@ -1,8 +1,8 @@
 body {
   /* height: 1000px; */
-  /* background: linear-gradient(180deg, #30a2c5 0%, rgba(255, 255, 255, 0) 100%),
-    #00242f; */
-  background: linear-gradient(192.05deg, #47bfdf 0%, #4a91ff 100%);
+  background: linear-gradient(180deg, #30a2c5 0%, rgba(255, 255, 255, 0) 100%),
+    #00242f;
+  /* background: linear-gradient(192.05deg, #47bfdf 0%, #4a91ff 100%); */
   background-repeat: no-repeat;
   background-size: cover;
 }
