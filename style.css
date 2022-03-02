@@ -1,0 +1,28 @@
+body {
+  /* height: 1000px; */
+  /* background: linear-gradient(180deg, #30a2c5 0%, rgba(255, 255, 255, 0) 100%),
+    #00242f; */
+  background: linear-gradient(192.05deg, #47bfdf 0%, #4a91ff 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-body-second-part {
+  background-color: #ffffff2a;
+}
+.temp {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 69.9193px;
+  line-height: 89px;
+  color: #ffffff;
+  text-shadow: -2.79677px 5.59354px 34.9597px rgb(0 0 0 / 10%);
+}
+
+.nextDayImage {
+  width: 26px;
+  height: 26px;
+}
+.next-day-temp {
+  font-size: 12px;
+}

@@ -17,8 +17,123 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>hello world</h1>
+    <header>
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 mx-auto">
+            <h2 class="text-white fw-bold text-white text-center my-4">
+              Weather Application
+            </h2>
+            <div>
+              <div class="input-group mb-3">
+                <input
+                  id="search-box"
+                  type="text"
+                  class="form-control"
+                  placeholder="search your current place"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  onclick="loadApi()"
+                  class="btn btn-outline-secondary text-white fw-bold"
+                  type="button"
+                  id="button-addon2"
+                >
+                  search
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
 
+    <!-- main part -->
+    <main>
+      <section class="container">
+        <div class="row" id="weather-card">
+          <div class="col-md-6 col-sm-10 col-12 mx-auto">
+            <div class="row">
+              <div class="col">
+                <h2 class="text-center fw-bold">Dhaka</h2>
+                <img
+                  class="mx-auto d-block"
+                  src="./images/day/122.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="row text-white">
+              <div class="col card-body-second-part rounded">
+                <p class="my-2 text-center">Today, 12 September</p>
+                <h1 class="fw-bold text-center text-white temp">29°</h1>
+                <h5 class="text-center">Cloudy</h5>
+                <div class="w-50 mx-auto px-3">
+                  <h5 class="d-flex justify-content-between">
+                    <span>Wind</span>: <span>10 km/h</span>
+                  </h5>
+                  <h5 class="d-flex justify-content-between pe-4">
+                    <span>Hum</span>: <span>54 %</span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <di class="row">
+              <div class="col bg-white rounded-pill px-5 py-4 my-4">
+                <h5 class="fw-bold">The Next 5 days</h5>
+                <div class="row">
+                  <div class="col">
+                    <h6 class="text-center">Sunday</h6>
+                    <div class="border rounded-pill text text-center px-1">
+                      <img
+                        class="nextDayImage"
+                        src="./images/day/227.png"
+                        alt=""
+                      />
+                      <h6 class="fw-bold next-day-temp">10° C</h6>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <h6 class="text-center">Sunday</h6>
+                    <div class="border rounded-pill text text-center px-1">
+                      <img
+                        class="nextDayImage"
+                        src="./images/day/227.png"
+                        alt=""
+                      />
+                      <h6 class="fw-bold next-day-temp">10° C</h6>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <h6 class="text-center">Sunday</h6>
+                    <div class="border rounded-pill text text-center px-1">
+                      <img
+                        class="nextDayImage"
+                        src="./images/day/227.png"
+                        alt=""
+                      />
+                      <h6 class="fw-bold next-day-temp">10° C</h6>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <h6 class="text-center">Sunday</h6>
+                    <div class="border rounded-pill text text-center px-1">
+                      <img
+                        class="nextDayImage"
+                        src="./images/day/227.png"
+                        alt=""
+                      />
+                      <h6 class="fw-bold next-day-temp">10° C</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </di>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- bootsrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
